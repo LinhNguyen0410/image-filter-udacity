@@ -1,7 +1,3 @@
-# My endpoint URL for a running elastic beanstalk deployment:
-
-http://image-filter-udacity-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://sm.imgix.net/22/44/lionel-messi.jpeg
-
 # Udagram Image Filtering Microservice
 
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
@@ -48,8 +44,10 @@ Prevent requests without valid authentication headers.
 
 > !!NOTE if you choose to submit this, make sure to add the token to the postman collection and export the postman collection file to your submission so we can review!
 
-### Custom Domain Name
+### Domain Name
 
-Add your own domain name and have it point to the running services (try adding a subdomain name to point to the processing server)
+1. [Endpoint URL](http://image-filter-udacity-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://sm.imgix.net/22/44/lionel-messi.jpeg) : My endpoint URL for a running elastic beanstalk deployment.
 
-> !NOTE: Domain names are not included in AWS’ free tier and will incur a cost.
+### My repository
+
+2. [Repository URL](https://github.com/LinhNguyen0410/image-filter-udacity): The project's GitHub repository URL
